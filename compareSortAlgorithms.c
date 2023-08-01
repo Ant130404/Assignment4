@@ -149,7 +149,6 @@ int parseData(char *inputFileName, int **ppData)
 			fscanf(inFile, "%d", &(*ppData)[i]);
 	}
 	
-	fclose(inFile);
 	return dataSz;
 }
 
